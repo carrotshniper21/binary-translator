@@ -1,12 +1,16 @@
 # Image Binary
 
-## Dependencies
-- [`fly`](https://fly.io/docs/hands-on/install-flyctl/)
+# Dependencies
+- [`rust`](https://www.rust-lang.org/)
 
-## Build
+# Installation
+```sh
+$ git clone https://github.com/carrotshniper21/image-binary
+$ cd image-binary
+$ cargo build --release
 ```
-fly deploy
-```
 
-You can check out the live instance [`here.`](https://silent-tree-5820.fly.dev/)
-
+# Routes 
+### /upload
+- **Method:** POST
+- **Description:** Returns a list of sources for the movie (MOVIES ONLY).
