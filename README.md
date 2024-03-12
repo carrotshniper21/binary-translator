@@ -15,7 +15,7 @@ $ cargo build --release
 Example Request
 ```sh
 curl -X POST \
-  https://example.com/upload \
+  http://127.0.0.1:8080/upload \
   -H 'Content-Type: application/json' \
   -d '{
     "filetype": "image/png",
